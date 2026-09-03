@@ -17,7 +17,8 @@ Six pages, plain HTML/CSS/JS. No build tools, no hosting cost.
 | `contact.html` | Contact details |
 | `style.css` | All styling. Colours are at the top under `:root`. |
 | `script.js` | Mobile menu + the counting-up numbers |
-| `build.py` | Optional. Regenerates all six pages from one shared template. |
+| `build.py` | Optional. Regenerates all pages from one shared template. |
+| `favicon.ico`, `favicon-16.png`, `favicon-32.png`, `apple-touch-icon.png` | The little photo that shows in the browser tab. Made from `portrait.jpg`. |
 
 ## Publish it free
 
