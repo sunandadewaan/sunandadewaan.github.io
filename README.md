@@ -11,6 +11,8 @@ Six pages, plain HTML/CSS/JS. No build tools, no hosting cost.
 | `work.html` | Career path, recognition, organisations |
 | `research.html` | Research assistantships, current research, publications |
 | `impact.html` | Jhum Revolution — reach, programme areas, activities |
+| `article.html` | Full article: "Are Indigenous Communities in Bangladesh Victims of Climate Change?" (published 22 July 2026) |
+| `recommendation-letter-nstu.pdf` | Letter of recommendation, linked from the Research page |
 | `contact.html` | Contact details |
 | `style.css` | All styling. Colours are at the top under `:root`. |
 | `script.js` | Mobile menu + the counting-up numbers |

@@ -17,9 +17,11 @@ document.addEventListener('DOMContentLoaded', function () {
   if (!nums.length) return;
 
   if (reduce || !('IntersectionObserver' in window)) {
-    nums.forEach(function (el) { el.textContent = el.dataset.count + (el.dataset.suffix || ''); });
+    nums.forEach(function (el) { el.textContent = fmt(el.dataset.count) + (el.dataset.suffix || ''); });
     return;
   }
+
+  function fmt(n) { return Number(n).toLocaleString('en-US'); }
 
   var io = new IntersectionObserver(function (entries) {
     entries.forEach(function (e) {
@@ -33,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
       function step(now) {
         var p = Math.min((now - start) / dur, 1);
         var eased = 1 - Math.pow(1 - p, 3);
-        el.textContent = Math.round(target * eased) + suffix;
+        el.textContent = fmt(Math.round(target * eased)) + suffix;
         if (p < 1) requestAnimationFrame(step);
       }
       requestAnimationFrame(step);
