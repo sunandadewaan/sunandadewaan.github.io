@@ -92,7 +92,7 @@ section:first-of-type{border-top:none}
 
 .portrait{position:relative;z-index:1;margin-top:2.5rem}
 @media(min-width:900px){.portrait{margin-top:0}}
-.portrait img{width:100%;aspect-ratio:4/5;object-fit:cover;filter:saturate(.92)}
+.portrait img{width:100%;aspect-ratio:1/1;object-fit:cover;filter:saturate(.95)}
 .portrait .frame{
   border:1px solid var(--stone);padding:.6rem;background:var(--shade);
 }
@@ -186,3 +186,12 @@ section:first-of-type{border-top:none}
   .contours path:nth-child(4){animation-delay:.3s}
   @keyframes draw{to{stroke-dashoffset:0}}
 }
+
+/* ---------------- photo gallery ---------------- */
+/* masonry-style columns so portrait and landscape photos both sit naturally */
+.gallery{columns:1;column-gap:1.4rem;margin-top:1.5rem}
+@media(min-width:640px){.gallery{columns:2}}
+@media(min-width:980px){.gallery{columns:3}}
+.gallery figure{break-inside:avoid;margin:0 0 1.75rem;display:inline-block;width:100%}
+.gallery img{width:100%;height:auto;border:1px solid var(--stone)}
+.gallery figcaption{font-family:var(--sans);font-size:.85rem;color:var(--moss);margin-top:.6rem;line-height:1.45}

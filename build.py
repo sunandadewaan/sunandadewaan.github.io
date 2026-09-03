@@ -116,8 +116,7 @@ CONTOURS = """<svg class="contours" viewBox="0 0 900 320" aria-hidden="true" pre
 
 PHOTO_SLOT = """<figure class="portrait">
   <div class="frame">
-    <!-- Replace this block with: <img src="portrait.jpg" alt="Sunanda Dewaan"> -->
-    <div class="photo-slot">Add portrait.jpg to this folder and swap this block for an &lt;img&gt; tag</div>
+    <img src="portrait.jpg" alt="Sunanda Dewaan" width="900" height="900">
   </div>
   <figcaption>Chattogram, Bangladesh</figcaption>
 </figure>"""
@@ -350,10 +349,42 @@ work = f"""
     <ul class="ledger">
       <li>
         <div class="when">2024</div>
-        <div class="what"><strong>ICCCAD Youth Innovative Fund</strong>
-        <span>International Centre for Climate Change and Development</span>
-        <p>Funded the six-month Jhum Revolution Campaign, which engaged more than
-        250 students and established the organisation's first community programmes.</p></div>
+        <div class="what"><strong>Winner, Youth Innovation Fund</strong>
+        <span>ICCCAD, Independent University Bangladesh, with the Embassy of Sweden &mdash; Promote Green Ideas / Campaigns category</span>
+        <p>An award of BDT 300,000 that funded the six-month Jhum Revolution Campaign,
+        which engaged more than 250 students and established the organisation's first
+        community programmes.</p></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>Speaking &amp; writing</h2>
+    <ul class="ledger">
+      <li>
+        <div class="when">2026</div>
+        <div class="what"><strong>Keynote speaker</strong>
+        <p><a href="https://www.linkedin.com/posts/sunanda-dewaan29_it-was-an-honor-to-serve-as-the-keynote-speaker-activity-7371879066464878592-D9oD">Read the post on LinkedIn</a></p>
+        <!-- TODO: replace the title above with the event name, and add a one-line
+             description of what you spoke about. --></div>
+      </li>
+      <li>
+        <div class="when">Nov 2025</div>
+        <div class="what"><strong>Guest speaker, Behind The Journey &mdash; Season 2, Episode 28</strong>
+        <span>Youth School for Social Entrepreneurs (YSSE) &mdash; broadcast live on Facebook, YouTube, and LinkedIn</span>
+        <p>A conversation on the founding of Jhum Revolution: the vision behind it, the
+        challenges, and what social entrepreneurship actually asks of you.
+        <a href="https://www.linkedin.com/events/behindthejourney-season2-episod7400515779894394880/theater/">Event page</a></p></div>
+      </li>
+      <li>
+        <div class="when">Article</div>
+        <div class="what"><strong>Indigenous Communities in Bangladesh: Victims of Climate Change</strong>
+        <span>Published on LinkedIn</span>
+        <p>On how climate change is reshaping life for indigenous communities in Bangladesh,
+        and what adaptation looks like from inside those communities.
+        <a href="https://www.linkedin.com/pulse/indigenous-communities-bangladesh-victims-climate-change-dewaan-9smkc/">Read the article</a></p></div>
       </li>
     </ul>
   </div>
@@ -470,6 +501,10 @@ impact = f"""
     <p>The organisation runs on a volunteer cohort model with structured recruitment,
     onboarding, and CHT-specific fieldwork guidance, supported by internal operational
     systems for applications, scheduling, and reporting.</p>
+    <p>The flagship project, <em>Integrating Jhum Cultivation with Agroforestry, Contouring
+    and Terracing through 3D Educational Tools to Enhance Climate Resilience in Chittagong
+    Hill Tracts, Bangladesh</em>, uses physical 3D models and Bangla-language booklets to
+    teach climate-resilient practice in hill schools and farming communities.</p>
     <div class="actions"><a class="btn" href="{JHUM}">Visit the organisation site</a></div>
   </div>
 </section>
@@ -501,9 +536,17 @@ impact = f"""
         community-facing programmes in the CHT.</p></div>
       </li>
       <li>
-        <div class="when">2024</div>
-        <div class="what"><strong>Capacity Building Seminar, NSTU</strong>
-        <span>Co-organised with ICCCAD &mdash; 50 participants</span></div>
+        <div class="when">Dec 2025</div>
+        <div class="what"><strong>Exhibitor, Environment Innovation Summit &amp; Awards 2025</strong>
+        <span>Bangladesh Sishu Academy Auditorium, Doyel Chattar, Dhaka &mdash; 22 December 2025</span>
+        <p>Presented the Sustainable Jhum Model, a 3D teaching tool showing how terracing,
+        contouring, agroforestry, rainwater harvesting, and compost fertilisation can be
+        layered onto existing jhum practice.</p></div>
+      </li>
+      <li>
+        <div class="when">Dec 2024</div>
+        <div class="what"><strong>Seminar: Capacity Building of the Local Youth through the Jhum Revolution Campaign and 3D Educational Tools</strong>
+        <span>IQAC, NSTU &mdash; 12 December 2024, with Independent University Bangladesh, ICCCAD, and the Embassy of Sweden &mdash; 50 participants</span></div>
       </li>
       <li>
         <div class="when">2026</div>
@@ -511,8 +554,99 @@ impact = f"""
         <span>32 applicants assessed, with structured role assignment and onboarding</span></div>
       </li>
     </ul>
-    <!-- TODO: add photographs from the field here — they will do more than any
-         paragraph. Put images in this folder and use <img src="field1.jpg" alt="..."> -->
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2>From the field</h2>
+    <p>Campaign work, seminars, school sessions, and community documentation across the
+    Chittagong Hill Tracts and Noakhali.</p>
+    <div class="gallery">
+
+      <figure>
+        <img src="community-discussion.jpg" alt="Group discussion with jhum farming women under a tree in the Chittagong Hill Tracts" loading="lazy">
+        <figcaption>Community discussion with jhum farming households &mdash; the starting point for every programme.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="filming.jpg" alt="Filming an interview with a community member in the hills" loading="lazy">
+        <figcaption>Documenting indigenous knowledge on camera, in the community's own words.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="nstu-presentation.jpg" alt="Presenting the Jhum Revolution campaign at the NSTU seminar" loading="lazy">
+        <figcaption>Presenting at the capacity building seminar, IQAC, NSTU &mdash; December 2024.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="seminar-group.jpg" alt="Group photograph of seminar participants at NSTU" loading="lazy">
+        <figcaption>Seminar participants at NSTU, held with Independent University Bangladesh, ICCCAD, and the Embassy of Sweden.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="school-session.jpg" alt="Speaking to students in a classroom in the Chittagong Hill Tracts" loading="lazy">
+        <figcaption>School session in the hills, introducing climate-resilient jhum practices.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="seminar-guests.jpg" alt="Guests and team at a Jhum Revolution session with the project title projected behind" loading="lazy">
+        <figcaption>Community leaders, teachers, and the Jhum Revolution team at a school programme.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="student-booklet.jpg" alt="A student reading the Jhum Revolution educational booklet in class" loading="lazy">
+        <figcaption>A student reading the campaign booklet &mdash; the material is produced in Bangla for hill schools.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="sapling.jpg" alt="Handing a sapling to a student during a tree planting programme" loading="lazy">
+        <figcaption>Sapling distribution with school students.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="field-planting.jpg" alt="Tree planting and climate awareness programme in Khagrachhari" loading="lazy">
+        <figcaption>Tree planting and climate awareness programme, Khagrachhari district.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="summit-team.jpg" alt="The Jhum Revolution team at their stall at the Environment Innovation Summit" loading="lazy">
+        <figcaption>The team at the Environment Innovation Summit &amp; Awards, Dhaka &mdash; December 2025.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="summit-poster.jpg" alt="Explaining the Sustainable Jhum Model to summit visitors" loading="lazy">
+        <figcaption>Explaining the Sustainable Jhum Model &mdash; a 3D teaching tool showing terracing, contouring, agroforestry, rainwater harvesting, and compost fertilisation.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="summit-stall.jpg" alt="Visitors at the Jhum Revolution stall at the Environment Innovation Summit" loading="lazy">
+        <figcaption>Bangladesh Sishu Academy Auditorium, Doyel Chattar &mdash; 22 December 2025.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="summit-banner.jpg" alt="The Jhum Revolution display banner at the summit" loading="lazy">
+        <figcaption>Jhum Revolution: a climate-smart, eco-friendly, research-oriented agricultural method for the Chittagong Hill Tracts.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="nstu-stall.jpg" alt="Jhum Revolution booklets on display at the Noakhali Science and Technology University stall" loading="lazy">
+        <figcaption>Campaign booklets on display at the NSTU research stall.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="icccad-award.jpg" alt="Receiving the Youth Innovation Fund award" loading="lazy">
+        <figcaption>Receiving the Youth Innovation Fund award &mdash; ICCCAD, Independent University Bangladesh, and the Embassy of Sweden.</figcaption>
+      </figure>
+
+      <figure>
+        <img src="thesis.jpg" alt="Thesis submission at Noakhali Science and Technology University" loading="lazy">
+        <figcaption>Thesis submission, Department of Food Technology and Nutrition Science, NSTU.</figcaption>
+      </figure>
+
+    </div>
+    <!-- TODO: add more field photographs here. Copy one <figure> block, put the image
+         file in this folder, and change the src and the caption. -->
   </div>
 </section>
 """

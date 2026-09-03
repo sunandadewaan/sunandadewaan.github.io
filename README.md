@@ -60,8 +60,10 @@ don't run `build.py` afterwards — it will overwrite your changes.
 
 ## Before you publish — checklist
 
-- [ ] Add your photo
+- [x] Add your photo
+- [x] Add field photographs
 - [ ] Add phone/WhatsApp on `contact.html` if you want it public
+- [ ] Name the 2026 keynote event on `work.html`
 - [ ] Add languages you speak, in the Skills section of `about.html`
 - [ ] Add certifications and trainings to `about.html`
 - [ ] Add any paid roles, internships, or consultancies to `work.html`
