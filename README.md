@@ -11,7 +11,8 @@ Six pages, plain HTML/CSS/JS. No build tools, no hosting cost.
 | `work.html` | Career path, recognition, organisations |
 | `research.html` | Research assistantships, current research, publications |
 | `impact.html` | Jhum Revolution — reach, programme areas, activities |
-| `article.html` | Full article: "Are Indigenous Communities in Bangladesh Victims of Climate Change?" (published 22 July 2026) |
+| `article.html` | Article index — one card per article |
+| `article-indigenous-communities.html` | Full article: "Are Indigenous Communities in Bangladesh Victims of Climate Change?" (22 July 2026) |
 | `recommendation-letter-nstu.pdf` | Letter of recommendation, linked from the Research page |
 | `contact.html` | Contact details |
 | `style.css` | All styling. Colours are at the top under `:root`. |
@@ -64,8 +65,14 @@ don't run `build.py` afterwards — it will overwrite your changes.
 
 - [x] Add your photo
 - [x] Add field photographs
-- [ ] Add phone/WhatsApp on `contact.html` if you want it public
 - [ ] Name the 2026 keynote event on `work.html`
+
+## Adding a new article
+
+1. Copy `article-indigenous-communities.html` and rename it, e.g. `article-my-new-piece.html`
+2. Replace the title, date, cover image and body text inside it
+3. In `article.html`, copy the whole `<article class="post-card">` block, paste it above
+   the existing one, and point its three links at your new file
 - [ ] Add languages you speak, in the Skills section of `about.html`
 - [ ] Add certifications and trainings to `about.html`
 - [ ] Add any paid roles, internships, or consultancies to `work.html`

@@ -10,7 +10,7 @@ NAV = [
     ("work.html", "Work"),
     ("research.html", "Research"),
     ("impact.html", "Impact"),
-    ("article.html", "Article"),
+    ("article.html", "Articles"),
     ("contact.html", "Contact"),
 ]
 
@@ -169,9 +169,10 @@ home = f"""
         <dt>Based in</dt><dd>Chattogram, Bangladesh</dd>
         <dt>Studying</dt><dd>MSc, Environmental Science and Disaster Management, Noakhali Science and Technology University</dd>
         <dt>Prior degree</dt><dd>BSc, Food Technology and Nutrition Science, NSTU (2020&ndash;2025)</dd>
-        <dt>Appointments</dt><dd>Member, UN Youth Advisory Group Bangladesh &mdash; Climate Change &amp; Green Growth (2026&ndash;); World Food Forum Youth Representative for Bangladesh, FAO (2025&ndash;26)</dd>
+        <dt>Appointments</dt><dd>Member, United Nations Youth Advisory Group Bangladesh &mdash; Climate Change &amp; Green Growth (July 2026&ndash;); World Food Forum Youth Representative for Bangladesh, FAO (2025&ndash;26)</dd>
         <dt>Fellowship</dt><dd>Fellow, Climate Policy Negotiation Fellowship 2026</dd>
-        <dt>Award</dt><dd>Winner, ICCCAD Youth Innovation Fund 2024 &mdash; BDT 300,000, Promote Green Ideas / Campaigns category</dd>
+        <dt>Award</dt><dd>Winner, ICCCAD Youth Innovation Fund, October 2024 &mdash; BDT 300,000, Promote Green Ideas / Campaign category</dd>
+        <dt>Languages</dt><dd>Bangla (native), English (professional working proficiency)</dd>
         <dt>Core focus</dt><dd>Indigenous food systems, dietary diversity, post-flood food security, digital well-being, youth-led climate action</dd>
         <dt>Contact</dt><dd><a href="mailto:{EMAIL}">{EMAIL}</a></dd>
       </dl>
@@ -224,8 +225,8 @@ about = f"""
 <section>
   <div class="wrap">
     <figure style="margin:0 0 2.5rem">
-      <img src="hills-cloud.jpg" alt="Morning cloud over the hills of the Chittagong Hill Tracts, with a jhum field hut in the foreground" style="width:100%;border:1px solid var(--stone)" loading="lazy">
-      <figcaption style="font-family:var(--sans);font-size:.85rem;color:var(--moss);margin-top:.6rem">A Machang Ghor above the cloud line &mdash; elevated bamboo housing built for flood and landslide country. Credit: Proti Bindu Wangza</figcaption>
+      <img src="community-discussion.jpg" alt="Group discussion with jhum farming households in the Chittagong Hill Tracts" style="width:100%;border:1px solid var(--stone)" loading="lazy">
+      <figcaption style="font-family:var(--sans);font-size:.85rem;color:var(--moss);margin-top:.6rem">Community discussion with jhum farming households in the Chittagong Hill Tracts.</figcaption>
     </figure>
 
     <p class="lede">I am a researcher and youth climate leader from Chattogram, working at the
@@ -259,16 +260,28 @@ about = f"""
 
     <div class="gallery" style="margin-top:2.5rem">
       <figure>
-        <img src="jhum-hillside.jpg" alt="Indigenous farmers working a jhum plot on a hillside" loading="lazy">
-        <figcaption>A jhum plot mid-season, Barkal Upazila, Rangamati. Credit: Proti Bindu Wangza</figcaption>
+        <img src="nstu-presentation.jpg" alt="Presenting the Jhum Revolution campaign at the NSTU seminar" loading="lazy">
+        <figcaption>Presenting at the capacity building seminar, IQAC, NSTU.</figcaption>
       </figure>
       <figure>
-        <img src="community-discussion.jpg" alt="Group discussion with jhum farming households" loading="lazy">
-        <figcaption>Community discussion with jhum farming households.</figcaption>
+        <img src="school-session.jpg" alt="Speaking to students in a classroom in the Chittagong Hill Tracts" loading="lazy">
+        <figcaption>School session in the hills.</figcaption>
       </figure>
       <figure>
-        <img src="paddy-winnowing.jpg" alt="Farmers winnowing the rice harvest together" loading="lazy">
-        <figcaption>Threshing and winnowing after the jhum harvest &mdash; communal work that needs a few clear days. Credit: Purna Moni Chakma</figcaption>
+        <img src="filming.jpg" alt="Filming an interview with a community member" loading="lazy">
+        <figcaption>Documenting indigenous knowledge on camera.</figcaption>
+      </figure>
+      <figure>
+        <img src="summit-team.jpg" alt="The Jhum Revolution team at the Environment Innovation Summit" loading="lazy">
+        <figcaption>With the team at the Environment Innovation Summit &amp; Awards, Dhaka.</figcaption>
+      </figure>
+      <figure>
+        <img src="sapling.jpg" alt="Handing a sapling to a student" loading="lazy">
+        <figcaption>Sapling distribution with school students.</figcaption>
+      </figure>
+      <figure>
+        <img src="seminar-group.jpg" alt="Seminar participants at NSTU" loading="lazy">
+        <figcaption>Seminar participants at NSTU.</figcaption>
       </figure>
     </div>
   </div>
@@ -304,14 +317,13 @@ about = f"""
     <p class="eyebrow">Skills</p>
     <h2>What I bring to a team.</h2>
     <div class="grid-2">
-      <div class="entry"><h3>Research &amp; analysis</h3><p>Survey design, field data collection, quantitative analysis in SPSS and R, literature review, scientific writing.</p></div>
-      <div class="entry"><h3>Programme design &amp; delivery</h3><p>Concept development, budgeting, volunteer recruitment and onboarding, safeguarding and grant-compliance documentation.</p></div>
-      <div class="entry"><h3>Research communication</h3><p>Turning field evidence into proposals, policy briefs, and public writing that non-specialists can act on.</p></div>
-      <div class="entry"><h3>Community engagement</h3><p>Long-term trust-building with indigenous farming households; cross-cultural collaboration across CHT communities.</p></div>
-      <div class="entry"><h3>Public speaking &amp; facilitation</h3><p>Seminars, training sessions, and youth convenings, including capacity-building workshops with ICCCAD.</p></div>
-      <div class="entry"><h3>Organisational leadership</h3><p>Founding and running a volunteer-based organisation: team structure, recruitment cycles, and operational systems.</p></div>
-    </div>
-    <!-- TODO: add a Languages entry (Bangla, English, and any CHT languages you speak). -->
+      <div class="entry"><h3>Programme &amp; field</h3><p>Activity planning and implementation, field coordination, community engagement, stakeholder communication, monitoring and reporting.</p></div>
+      <div class="entry"><h3>Financial &amp; administrative</h3><p>Budget management, grant proposal writing, requisitions and procurement support.</p></div>
+      <div class="entry"><h3>Research &amp; analysis</h3><p>Survey design, household data collection, quantitative analysis in SPSS and R, literature review, scientific writing.</p></div>
+      <div class="entry"><h3>Technical</h3><p>R and Python; SPSS; Google Workspace and Google Apps Script automation; MS Word, Excel, PowerPoint; Canva.</p></div>
+      <div class="entry"><h3>Languages</h3><p>Bangla &mdash; native and fluent. English &mdash; professional working proficiency.</p></div>
+      <div class="entry"><h3>Community engagement</h3><p>Long-term trust-building with indigenous farming households; training facilitation and public speaking; cross-cultural collaboration across CHT communities.</p></div>
+    <!-- TODO: add any CHT languages you speak to the Languages entry above. -->
   </div>
 </section>
 """
@@ -333,13 +345,17 @@ work = f"""
     <h2>Career path</h2>
     <ul class="ledger">
       <li>
-        <div class="when">Present</div>
+        <div class="when">2024 &ndash; present</div>
         <div class="what"><strong>Founder &amp; Executive Director</strong><span class="tag">Current</span>
         <span>Jhum Revolution &mdash; Chittagong Hill Tracts, Bangladesh</span>
         <p>Lead a youth-led organisation working on climate resilience, indigenous food
-        systems, and community empowerment. Responsible for programme design, grant
-        applications, partnerships, volunteer recruitment and onboarding, safeguarding
-        policy, and financial reporting.</p></div>
+        systems, and community empowerment, reaching 300+ families across the Chittagong Hill
+        Tracts. Direct programme design, field coordination, and community engagement. Wrote
+        and secured the ICCCAD grant that launched the six-month Jhum Revolution Campaign, and
+        managed the project end to end. Built the organisation's volunteer recruitment,
+        onboarding, and administrative systems, including a Google Apps Script dashboard and
+        automated communications workflows. Responsible for partnerships, safeguarding policy,
+        and financial reporting.</p></div>
       </li>
       <li>
         <div class="when">2026 &ndash; present</div>
@@ -347,28 +363,30 @@ work = f"""
         <span>Two-year programme in climate policy and multilateral negotiation</span></div>
       </li>
       <li>
-        <div class="when">2026 &ndash; present</div>
-        <div class="what"><strong>Member, UN Youth Advisory Group Bangladesh</strong>
+        <div class="when">Jul 2026 &ndash; present</div>
+        <div class="what"><strong>Member, United Nations Youth Advisory Group, Bangladesh</strong><span class="tag">Current</span>
         <span>Climate Change and Green Growth thematic area</span></div>
       </li>
       <li>
-        <div class="when">Apr 2025 &ndash; present</div>
-        <div class="what"><strong>Office Intern</strong><span class="tag">Current</span>
-        <span>Ranking &amp; Strategic Development Cell, Noakhali Science and Technology University</span>
-        <p>Assist with data analysis, MIS entry, and institutional reporting. Strengthen
-        research documentation and cross-team coordination.</p></div>
+        <div class="when">Apr 2025 &ndash; Apr 2026</div>
+        <div class="what"><strong>Office Intern</strong>
+        <span>Ranking and Strategic Development Cell, Noakhali Science and Technology University</span>
+        <p>Contributed to data collection, analysis, and entry for global university ranking
+        databases, and assisted in preparing institutional reports and documentation.</p></div>
       </li>
       <li>
         <div class="when">2025 &ndash; 2026</div>
         <div class="what"><strong>Youth Representative for Bangladesh, World Food Forum</strong>
         <span>Food and Agriculture Organization of the United Nations</span>
-        <p>Represented Bangladeshi youth in global food systems dialogue, bringing
-        evidence from indigenous and climate-affected communities into the conversation.</p></div>
+        <p>Represented Bangladeshi youth in global food systems dialogue, bringing evidence
+        from indigenous and climate-affected communities into the conversation.</p></div>
       </li>
       <li>
         <div class="when">2024 &ndash; 2025</div>
         <div class="what"><strong>President, NSTU Science Club</strong>
-        <span>Noakhali Science and Technology University</span></div>
+        <span>Noakhali Science and Technology University</span>
+        <p>Organised the 3rd NSTU National Science Fest in 2025 and coordinated club
+        programming. Previously served as Research and Development Secretary, 2023&ndash;24.</p></div>
       </li>
     </ul>
     <!-- TODO: add any paid roles, internships, or consultancies here, newest first.
@@ -381,7 +399,7 @@ work = f"""
     <h2>Recognition</h2>
     <ul class="ledger">
       <li>
-        <div class="when">2024</div>
+        <div class="when">Oct 2024</div>
         <div class="what"><strong>Winner, Youth Innovation Fund</strong>
         <span>ICCCAD, Independent University Bangladesh, with the Embassy of Sweden &mdash; Promote Green Ideas / Campaigns category</span>
         <p>An award of BDT 300,000 that funded the Jhum Revolution Campaign
@@ -417,7 +435,7 @@ work = f"""
         <span>Published on LinkedIn</span>
         <p>On how climate change is reshaping life for indigenous communities in Bangladesh,
         and what adaptation looks like from inside those communities.
-        <a href="article.html">Read the article</a></p></div>
+        <a href="article-indigenous-communities.html">Read the article</a></p></div>
       </li>
     </ul>
   </div>
@@ -452,29 +470,29 @@ research = f"""
 
 <section>
   <div class="wrap">
-    <h2>Research assistantships</h2>
+    <h2>Research experience</h2>
     <ul class="ledger">
+      <li>
+        <div class="when">Researcher<br>Ongoing</div>
+        <div class="what"><strong>Water Security and WASH Practices: Implications for the Livelihood of the Bede Community in Noakhali, Bangladesh</strong>
+        <span>Supervisor: Dr. Md. Shohel Khan, Associate Professor, Dept. of Environmental Science and Disaster Management, NSTU</span></div>
+      </li>
+      <li>
+        <div class="when">Research Assistant<br>Sep &ndash; Oct 2024</div>
+        <div class="what"><strong>After the Floods: The Poverty&ndash;Gender Nexus in Food Insecurity in Bangladesh</strong>
+        <span>A multi-institutional household survey by Noakhali Science and Technology University, Hong Kong Baptist University, and the Australian National University &mdash; Principal Investigator: Dr. Md. Abdullah Al Mamun, Associate Professor, Dept. of Food Technology and Nutrition Science, NSTU</span>
+        <p>Completed over 50 household surveys, covering data collection, quality control, and
+        informed consent protocols across international ethics frameworks.</p></div>
+      </li>
       <li>
         <div class="when">Research Assistant</div>
         <div class="what"><strong>Impact of Digital Addiction on Maternal and Child Health and Dietary Diversity in the Chittagong Hill Tracts</strong>
-        <span>Supervisor: Dr. Mansura Mokbul, Dept. of Food Technology &amp; Nutrition Science, NSTU</span>
-        <p>Examined how digital media use among mothers relates to child health outcomes
-        and household dietary diversity in hill communities.</p></div>
+        <span>Undergraduate research &mdash; Supervisor: Dr. Mansura Mokbul, Chairman and Associate Professor, Dept. of Food Technology and Nutrition Science, NSTU</span></div>
       </li>
       <li>
         <div class="when">Research Assistant</div>
         <div class="what"><strong>Capacity Building of Youth to Improve Drinking Water Security and Climate Resilience through a Youth-led Participatory Sensing Model</strong>
-        <span>Hatiya Island, Noakhali &nbsp;·&nbsp; PI: Md. Saiful Islam, ICCCAD Fellowship Holder</span>
-        <p>Supported a participatory model training young people to monitor drinking water
-        security in a climate-exposed island community.</p></div>
-      </li>
-      <li>
-        <div class="when">Sep &ndash; Oct 2024</div>
-        <div class="what"><strong>After the Floods: The Poverty&ndash;Gender Nexus in Food Insecurity in Bangladesh</strong>
-        <span>A multi-institutional household survey by Noakhali Science and Technology University, Hong Kong Baptist University, and the Australian National University &mdash; PI: Dr. Md. Abdullah Al Mamun, Associate Professor, Dept. of Food Technology &amp; Nutrition Science, NSTU</span>
-        <p>Completed over 50 household surveys as a Research Assistant, covering data
-        collection, quality control, and informed consent protocols across international
-        ethics frameworks.</p></div>
+        <span>Hatiya Island, Noakhali &mdash; Principal Investigator: Md. Saiful Islam, ICCCAD Fellowship Holder</span></div>
       </li>
     </ul>
   </div>
@@ -493,9 +511,9 @@ research = f"""
 <section>
   <div class="wrap">
     <h2>Current research</h2>
-    <p>My master's research examines planetary health awareness and the relationship
-    between climate stress, agriculture, and diet in coastal Noakhali, alongside work on
-    post-flood recovery and resilience in the Chittagong Hill Tracts.</p>
+    <p>My master's research sits in environmental science and disaster management, examining
+    the relationship between climate stress, agriculture, and diet in coastal Noakhali,
+    alongside work on post-flood recovery and resilience in the Chittagong Hill Tracts.</p>
     <!-- TODO: update this paragraph once your thesis topic is finalised. -->
   </div>
 </section>
@@ -726,8 +744,7 @@ contact = f"""
       <li><span class="lbl">LinkedIn</span> <a href="{LINKEDIN}">linkedin.com/in/sunanda-dewaan29</a></li>
       <li><span class="lbl">Organisation</span> <a href="{JHUM}">Jhum Revolution</a></li>
       <li><span class="lbl">Based in</span> Chattogram, Bangladesh</li>
-      <!-- TODO: add WhatsApp if you want it public:
-      <li><span class="lbl">WhatsApp</span> <a href="https://wa.me/8801XXXXXXXXX">+880 1XXX-XXXXXX</a></li> -->
+      <li><span class="lbl">Phone</span> <a href="tel:+8801624415216">+880 1624 415216</a></li>
     </ul>
   </div>
 </section>
@@ -746,8 +763,8 @@ contact = f"""
 """
 
 
-# ---------------------------------------------------------------- ARTICLE
-article = f"""
+# ------------------------------------------------- FULL ARTICLE (single post)
+article_indigenous = f"""
 <section class="hero article-hero" style="padding-bottom:1.5rem">
   <div class="wrap">
     <p class="eyebrow">Article &nbsp;·&nbsp; 22 July 2026</p>
@@ -971,8 +988,47 @@ article = f"""
       <p style="font-size:.95rem;color:var(--moss)">Originally published on LinkedIn,
       22 July 2026.
       <a href="https://www.linkedin.com/pulse/indigenous-communities-bangladesh-victims-climate-change-dewaan-9smkc/">Read and comment there.</a></p>
+      <p style="margin-top:1.5rem"><a class="btn" href="article.html">All articles</a></p>
 
     </div>
+  </div>
+</section>
+"""
+
+
+# ---------------------------------------------------------------- ARTICLE INDEX
+articles_index = f"""
+<section class="hero">
+  <div class="wrap">
+    {CONTOURS}
+    <div class="hero-text">
+      <p class="eyebrow">Writing</p>
+      <h1>Articles.</h1>
+      <p class="lede">Essays on climate adaptation, indigenous knowledge, and food systems
+      in the Chittagong Hill Tracts.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <article class="post-card">
+      <a class="post-thumb" href="article-indigenous-communities.html">
+        <img src="article-cover.jpg" alt="Indigenous women transplanting rice seedlings in a paddy field in the Chittagong Hill Tracts" loading="lazy">
+      </a>
+      <div class="post-meta">
+        <p class="post-date">22 July 2026</p>
+        <h2><a href="article-indigenous-communities.html">Are Indigenous Communities in Bangladesh Victims of Climate Change?</a></h2>
+        <p>If this question is asked in a seminar room, you will get a confident &ldquo;yes.&rdquo;
+        But if it is asked in a remote village in the Chittagong Hill Tracts you will get a more
+        complicated answer &mdash; one that has less to do with helplessness and more to do with
+        a system that has worked for generations but is now being pushed past its limit.</p>
+        <p><a class="btn" href="article-indigenous-communities.html">Read the full article</a></p>
+      </div>
+    </article>
+
+    <!-- TODO: to add another article, copy the <article class="post-card"> block above,
+         create a new page for it, and point the links at that page. -->
   </div>
 </section>
 """
@@ -988,7 +1044,9 @@ if __name__ == "__main__":
          "Research on dietary diversity, digital addiction and maternal health, drinking water security, and post-flood food insecurity in Bangladesh.", research)
     page("impact.html", "Impact | Sunanda Dewaan",
          "Jhum Revolution's work with jhum farming families in the Chittagong Hill Tracts — programmes, reach, and activities.", impact)
-    page("article.html", "Are Indigenous Communities in Bangladesh Victims of Climate Change? | Sunanda Dewaan",
-         "An article by Sunanda Dewaan on climate change, jhum cultivation, and indigenous adaptation in the Chittagong Hill Tracts, Bangladesh.", article)
+    page("article.html", "Articles | Sunanda Dewaan",
+         "Writing by Sunanda Dewaan on climate adaptation, indigenous knowledge, and food systems in the Chittagong Hill Tracts, Bangladesh.", articles_index)
+    page("article-indigenous-communities.html", "Are Indigenous Communities in Bangladesh Victims of Climate Change? | Sunanda Dewaan",
+         "An article by Sunanda Dewaan on climate change, jhum cultivation, and indigenous adaptation in the Chittagong Hill Tracts, Bangladesh.", article_indigenous)
     page("contact.html", "Contact | Sunanda Dewaan",
          "Get in touch with Sunanda Dewaan for research collaboration, programme partnerships, and speaking.", contact)
